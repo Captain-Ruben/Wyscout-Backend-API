@@ -1,0 +1,19 @@
+FROM ubuntu 
+
+RUN apt update
+RUN apt install python3-pip -y
+RUN pip3 install Flask
+RUN pip3 install flask_restful
+RUN pip3 install statsbombpy
+RUN pip3 install pandas
+RUN pip3 install openpyxl
+RUN pip3 install pymongo
+RUN pip3 install flask-cors
+RUN pip3 install flasgger
+
+WORKDIR /app
+COPY . .
+
+WORKDIR /app
+
+CMD [ "python3", "-m", "flask", "run", "--host=0.0.0.0"]
