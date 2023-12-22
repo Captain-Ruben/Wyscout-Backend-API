@@ -8,7 +8,7 @@ from Connection.config import parameters_collection, players_collection
 
 def start_up():
     data = pd.read_excel(find_excel_file("input_wyscout.xlsx"))
-    data.fillna(0)
+    data.fillna(0, inplace=True)
 
     if is_not_seeded(parameters_collection):
         seed_parameter_database(data)
