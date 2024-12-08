@@ -33,7 +33,7 @@ This backend API is designed for managing Wyscout export files, with MongoDB and
    Once the application is up and running, you can access the Swagger UI at:
 
    ```
-   http://localhost:8080/swagger
+   http://localhost:5000/apidocs/
    ```
 
    Here you can explore and test all available API endpoints.
