@@ -17,8 +17,11 @@ This backend API is designed for managing Wyscout export files, with MongoDB and
    git clone https://github.com/Captain-Ruben/Backend-Scouting.git
    cd wyscout-backend
    ```
+   
+2. **Export Wyscout data:**
+   Place the exported data from Wyscout in the data folder with the name: input_wyscout.xlsx.
 
-2. **Start the application with Docker Compose:**
+3. **Start the application with Docker Compose:**
 
    Run the following command to spin up both the MongoDB database and the API:
 
@@ -28,7 +31,7 @@ This backend API is designed for managing Wyscout export files, with MongoDB and
 
    This will automatically download the necessary images and start the containers.
 
-3. **Access the Swagger UI:**
+4. **Access the Swagger UI:**
 
    Once the application is up and running, you can access the Swagger UI at:
 
