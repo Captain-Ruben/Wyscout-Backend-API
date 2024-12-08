@@ -14,7 +14,7 @@ This backend API is designed for managing Wyscout export files, with MongoDB and
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/wyscout-backend.git
+   git clone https://github.com/Captain-Ruben/Backend-Scouting.git
    cd wyscout-backend
    ```
 
